@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+   <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="stylesheet" href="/css/juego.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section id="game" class="justify-center flex-column">
+            <div id="harry">
+                <div class="harry-item">
+                    <p id="progresoTexto" class="harry-prefix">
+                        PREGUNTA
+                    </p>
+                    <div id="barraDeProgreso">
+                        <div id="barraDeProgresoFull"></div>
+                    </div>
+                </div>
+                <div class="harry-item">
+                    <p class="harry-prefix">
+                        Resultado
+                    </p>
+                    <h2 class="harry-main-texto" id="score">
+                        0
+                    </h2>
+                </div>
+            </div>
+            <h1 id="question">¿Cuál es la resupesta a la pregunta?</h1>
+            <div class="choice-container">
+                <p class="elige-prefix">A</p>
+                <p class="elige-texto" data-number="1">Elige</p>
+            </div>
+            <div class="choice-container">
+                <p class="elige-prefix">B</p>
+                <p class="elige-texto" data-number="2">Elige 2</p>
+            </div>
+            <div class="choice-container">
+                <p class="elige-prefix">C</p>
+                <p class="elige-texto" data-number="3">Elige 3</p>
+            </div>
+            <div class="choice-container">
+                <p class="elige-prefix">D</p>
+                <p class="elige-texto" data-number="4">Elige 4</p>
+            </div>
+        </section>
+    </main>
+    <script src="/js/juego.js"></script>
+</body>
+</html>

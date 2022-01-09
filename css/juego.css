@@ -1,0 +1,125 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	font-size: 100%
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* MI CODIGO COMIENZA AQUÍ*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body{
+    color: #ffff;
+}
+
+h1#question{
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 10px;
+    background: rgb(255, 120, 37);
+    font-size: 3rem;
+    min-width: 80rem;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.2rem 1rem 0 rgb(255, 143, 75, 0.6);
+    transform: scale(1.01);
+    transform: transform 100ms;
+}
+
+.elige-prefix{
+    padding: 2rem 1.5rem;
+    color: white;
+}
+
+.elige-texto{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correcta{
+    background: linear-gradient(32deg, rgba(11, 223, 36)0%, rgb(41, 232, 111)100%);
+}
+
+
+.incorrecta{
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1)0%, rgb(224, 11, 11, 1)100%);
+}
+
+#harry{
+    display: flex;
+    justify-content: space-between;
+}
+
+.harry-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.harry-main-texto{
+    text-align: center;
+    font-size: 2rem;
+}
+
+#barraDeProgreso{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(11, 223, 36);
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#barraDeProgresoFull{
+    height: 100%;
+    background: rgb(11, 223, 36);
+    width: 0%;
+}
+
+
+@media screen and (max-width: 768px){
+    .choice-container{
+        min-width: 40rem;
+    }
+}
+
