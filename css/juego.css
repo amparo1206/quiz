@@ -37,7 +37,7 @@ table {
 	border-spacing: 0;
 }
 /* MI CODIGO COMIENZA AQUÍ*/
-@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 body{
     color: #ffff;
@@ -77,12 +77,12 @@ h1#question{
     width: 100%;
 }
 
-.correcta{
+.correct{
     background: linear-gradient(32deg, rgba(11, 223, 36)0%, rgb(41, 232, 111)100%);
 }
 
 
-.incorrecta{
+.incorrect{
     background: linear-gradient(32deg, rgba(230, 29, 29, 1)0%, rgb(224, 11, 11, 1)100%);
 }
 
