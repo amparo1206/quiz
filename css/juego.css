@@ -41,6 +41,7 @@ table {
 
 body{
     color: #ffff;
+    background-image: url(/imagenes/Harry_Potter_y_la_piedra_filosofal-506964545-large.jpeg);
 }
 
 h1#question{
@@ -55,14 +56,14 @@ h1#question{
     margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 10px;
-    background: rgb(255, 120, 37);
+    background: linear-gradient(90deg, rgb(195, 10, 240)0%, rgb(176, 11, 216)100%);
     font-size: 3rem;
     min-width: 80rem;
 }
 
 .choice-container:hover{
     cursor: pointer;
-    box-shadow: 0 0.2rem 1rem 0 rgb(255, 143, 75, 0.6);
+    box-shadow: 0 0.2rem 1rem 0 rgb(226, 126, 250, 0.6);
     transform: scale(1.01);
     transform: transform 100ms;
 }
@@ -75,6 +76,7 @@ h1#question{
 .elige-texto{
     padding: 2rem;
     width: 100%;
+    text-align: center;
 }
 
 .correct{
@@ -104,7 +106,7 @@ h1#question{
 #barraDeProgreso{
     width: 20rem;
     height: 3rem;
-    border: solid rgb(11, 223, 36);
+    border: solid rgb(212, 172, 13);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
@@ -112,7 +114,7 @@ h1#question{
 
 #barraDeProgresoFull{
     height: 100%;
-    background: rgb(11, 223, 36);
+    background: rgb(212, 172, 13);
     width: 0%;
 }
 

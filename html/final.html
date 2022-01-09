@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado Final</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+    <script src="https://kit.fontawesome.com/262eb30539.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <section id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Introduce tu nombre para guardar tu resultado</h2>
+                <input type="text" name="name" id="username" placeholder="Introduce tu nombre">
+                <button class="juego" id="saveScoreJuego" type="submit" onclick="saveHighScore(event)" disabled>Guardar</button>
+            </form>
+            <a href="/html/juego.html" class="juego">Vuelve A Jugar</a>
+            <a href="/index.html" class="juego">Hogwarts<i class="fas -fa-home"></i></a>
+        </section>
+    </main>
+    <script src="/js/final.js"></script>
+</body>
+</html>

@@ -42,11 +42,60 @@ let questions = [
         choice3: 'Kreacher',
         choice4: 'Fred Weasley',
         answer: 3,
+    },
+    {
+        question: '¿Quién es la futura ministra de magia?',
+        choice1: 'Ginny',
+        choice2: 'Molly',
+        choice3: 'Thonks',
+        choice4: 'Hermione',
+        answer: 4,
+    },
+    {
+        question: '¿Qué hechizo utiliza siempre Harry Potter?',
+        choice1: 'Expeliarmus',
+        choice2: 'Expelliarmus',
+        choice3: 'Espelliarmus',
+        choice4: 'Expelliarmonos',
+        answer: 2,
+    },
+    {
+        question: '¿Quién es el Príncipe Mestizo?',
+        choice1: 'Remus Lupin',
+        choice2: 'Severus Snape',
+        choice3: 'Sirius Black',
+        choice4: 'Arthur Weasley',
+        answer: 2,
+    },
+    {
+        question: '¿Quién mata a Bellatrix Lestrange?',
+        choice1: 'J.K.Rowling',
+        choice2: 'Ginny Weasley',
+        choice3: 'Albus Dumbledore',
+        choice4: 'Molly Weasley',
+        answer: 4,
+    },
+    {
+        question: '¿Quién libera a Dobby?',
+        choice1: 'Lucius Malfoy',
+        choice2: 'Draco Malfoy',
+        choice3: 'Harry Potter',
+        choice4: 'Albus Dumbledore',
+        answer: 3,
+    },
+    {
+        question: '¿En cuántos idiomas están traducidos los libros de Harry Potter?',
+        choice1: '80',
+        choice2: '68',
+        choice3: '55',
+        choice4: '70',
+        answer: 1,
     }
+    
 ]
 
 const SCORE_POINTS = 100
-const MAX_QUESTIONS = 4
+const MAX_QUESTIONS = 10
 
 startGame = () => {
     questionCounter = 0
@@ -59,7 +108,7 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('/end.html')  
+        return window.location.assign('../html/final.html')  
     }
     questionCounter++ 
     progresoTexto.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`

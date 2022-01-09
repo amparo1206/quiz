@@ -45,7 +45,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 :root{
-    background-image: url(/imagenes/871025.png);
+    background-image: url(/imagenes/Harry_Potter_y_la_piedra_filosofal-506964545-large.jpeg);
 }
 
 *{
@@ -103,6 +103,9 @@ h2{
 }
 
 .juego{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	font-size: 2.4rem;
 	padding: 2rem 0;
 	width: 30rem;
@@ -110,7 +113,7 @@ h2{
 	margin-bottom: 1rem;
 	text-decoration: none;
 	color: #000000;
-	background: linear-gradient(90deg, rgb(195, 10, 240)0%, rgb(111, 33, 130)100%);
+	background: linear-gradient(90deg, rgb(195, 10, 240)0%, rgb(176, 11, 216)100%);
 	border-radius: 10px;
 }
 
@@ -138,4 +141,52 @@ h2{
 fa-crown{
 	font-size: 2.5rem;
 	margin-left: 1rem;
+}
+
+
+fa-home{
+	font-size: 2rem;
+	margin-left: 1rem;
+	color: white;
+}
+
+.end-form-container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 30rem;
+}
+
+input{
+	margin-bottom: 1rem;
+	width: 20rem;
+	padding: 1.5rem;
+	font-size: 1.7rem;
+	border: none;
+	box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 143, 75, 0.6);
+}
+
+input::placeholder{
+	color:#000000;
+}
+
+#username{
+	margin-bottom: 3rem;
+	width: 100%;
+	outline: none;
+}
+
+#end-text {
+	font-size: 2.4rem;
+	color: #fff;
+	text-align: center;
+}
+
+#saveScoreJuego{
+	border: none;
+}
+
+h1#finalScore{
+	padding-top: 30px;
 }
