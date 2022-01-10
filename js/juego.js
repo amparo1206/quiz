@@ -81,7 +81,7 @@ let questions = [
         choice2: 'Draco Malfoy',
         choice3: 'Harry Potter',
         choice4: 'Albus Dumbledore',
-        answer: 3,
+        answer: 1,
     },
     {
         question: '¿En cuántos idiomas están traducidos los libros de Harry Potter?',

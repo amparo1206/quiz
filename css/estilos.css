@@ -58,7 +58,6 @@ table {
 h1{
 	font-size: 6.4rem;
 	color: #fff;
-	margin-bottom: 5rem;
 	display: flex;
 	justify-content: center;
 	text-align: center;
@@ -143,12 +142,7 @@ fa-crown{
 	margin-left: 1rem;
 }
 
-
-fa-home{
-	font-size: 2rem;
-	margin-left: 1rem;
-	color: white;
-}
+/*PÁGINA FINAL*/
 
 .end-form-container{
 	width: 100%;
@@ -162,9 +156,9 @@ input{
 	margin-bottom: 1rem;
 	width: 20rem;
 	padding: 1.5rem;
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	border: none;
-	box-shadow: 0 0.4rem 1.4rem 0 rgb(255, 143, 75, 0.6);
+	box-shadow: 0 0.1rem 1.4rem 0 rgb(255, 143, 75, 0.6);
 }
 
 input::placeholder{
@@ -186,4 +180,3 @@ input::placeholder{
 #saveScoreJuego{
 	border: none;
 }
-
