@@ -45,10 +45,10 @@ let questions = [
     },
     {
         question: '¿Quién es la futura ministra de magia?',
-        choice1: 'Ginny',
-        choice2: 'Molly',
-        choice3: 'Thonks',
-        choice4: 'Hermione',
+        choice1: 'Ginny Weasley',
+        choice2: 'Molly Weasley',
+        choice3: 'Nymphadora Tonks',
+        choice4: 'Hermione Granger',
         answer: 4,
     },
     {
@@ -90,6 +90,30 @@ let questions = [
         choice3: '55',
         choice4: '70',
         answer: 1,
+    },
+    {
+        question: '¿En qué película sale el de crepúsculo?',
+        choice1: 'La Piedra Filosofal',
+        choice2: 'El Cáliz de Fuego',
+        choice3: 'Las Reliquias de la Muerte',
+        choice4: 'El Prisionero de Azkaban',
+        answer: 2,
+    },
+    {
+        question: '¿Qué hechizo siempre quiso hacer McGonagall?',
+        choice1: 'Expeliarmus',
+        choice2: 'Accio',
+        choice3: 'Piertotum Locomotor',
+        choice4: 'Flipendo',
+        answer: 3,
+    },
+    {
+        question: '¿Quién le pega un puñetazo a Malfoy?',
+        choice1: 'Cho Chang',
+        choice2: 'Luna Lovegod',
+        choice3: 'Narcisa Malfoy',
+        choice4: 'Hermione Granger',
+        answer: 4,
     }
     
 ]
@@ -105,7 +129,7 @@ startGame = () => {
 }
 
 getNewQuestion = () => {
-    if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
         return window.location.assign('../html/final.html')  
