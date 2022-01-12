@@ -45,7 +45,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 :root{
-    background-image: url(/imagenes/Harry_Potter_y_la_piedra_filosofal-506964545-large.jpeg);
+	background-image: url(/imagenes/Harry_Potter_y_la_piedra_filosofal-506964545-large.jpeg);
 	--neon-text-color: #f40;
 	--neon-border-color: #08f;
 }
@@ -57,6 +57,9 @@ table {
     font-size: 62,5%;
     font-family: 'Yusei Magic', sans-serif;
 }
+
+
+
 h1{
 	font-size: 5.4rem;
 	margin: 30px;
@@ -77,9 +80,9 @@ h2{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 1280px;
+	/* max-width: 1280px;
 	margin: 0 auto;
-	padding: 2rem;
+	padding: 2rem; */
 }
 
 .flex-colum {
@@ -111,14 +114,14 @@ h2{
 	text-align: center;
 	font-size: 2.4rem;
 	padding: 2rem 0;
-	width: 25rem;
+	width: 30rem;
 	margin-bottom: 1rem;
 	text-decoration: none;
 	color: #fff;
 	text-transform: uppercase;
 	animation: flicker 1.5s infinite alternate; 
 	background: linear-gradient(90deg, rgb(195, 10, 240)0%, rgb(176, 11, 216)100%);
-	border-radius: 20px;
+	border-radius: 30px;
 }
 juego::-moz-selection {
 	background-color: var(--neon-border-color);
@@ -133,7 +136,7 @@ juego::-moz-selection {
   }
 /* Animate neon flicker */
 @keyframes flicker {
-    
+
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
       
         text-shadow:
@@ -206,6 +209,7 @@ input{
 	font-size: 1.8rem;
 	border: none;
 	box-shadow: 0 0.1rem 1.4rem 0 rgb(255, 143, 75, 0.6);
+	border-radius: 30px;
 }
 
 input::placeholder{
@@ -222,6 +226,7 @@ input::placeholder{
 	font-size: 2.4rem;
 	color: #fff;
 	text-align: center;
+	padding: 10px;
 }
 
 #saveScoreJuego{

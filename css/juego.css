@@ -48,17 +48,17 @@ h1#question{
     margin: 20px;
     justify-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 100px;
 }
 
 .choice-container{
     display: flex;
     margin-bottom: 0.8rem;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 30px;
     background: linear-gradient(90deg, rgb(195, 10, 240)0%, rgb(176, 11, 216)100%);
     font-size: 3rem;
-    min-width: 80rem;
+    min-width: 50rem;
 }
 
 .choice-container:hover{
