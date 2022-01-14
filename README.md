@@ -5,4 +5,5 @@ _El editor que he utilizado es Visual Studio Code_
 
 # COMENZAMOS
 _Primero he organizado el cógido en 3 carpetas, más una carpeta adicional para los recursos de imagenes que vaya a utilizar o probar en el proyecto_
-<img src="/" alt="My cool logo"/>
+
+![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/carpetas.png)
