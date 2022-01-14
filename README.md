@@ -10,7 +10,7 @@ _En el Index tenemos el comienzo del juego, como vemos tenemos unos botones con 
 
 ### Código Neon
 
-```
+```CSS
 @keyframes flicker {
 
     0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
@@ -38,7 +38,11 @@ _En el Index tenemos el comienzo del juego, como vemos tenemos unos botones con 
         box-shadow: none;
     }    
 }
-
 ```
 ### Pantalla de preguntas
 
+_Una vez entramos en el quiz nos encontramos las preguntas, hay un total de 10 preguntas, aunque se han almacenado más siempre aparecen 10, van cambiando en cada partida tanto de orden como cual es la pregunta que aparece._
+_Tenemos un contador de cuantas preguntas llevamos y el puntuaje para que el usuario sepa cómo va en el juego._
+_Si la pregunta es correcta antes de cambiar a la siguiente se pondrá en verde una vez selecciones la respuesta, si la fallas aparecerá en rojo._
+
+![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/preguntas.jpg)
