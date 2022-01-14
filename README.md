@@ -10,7 +10,7 @@ _Primero he organizado el cógido en 3 carpetas, más una carpeta adicional para
 
 _En el Index tenemos el comienzo del juego, como vemos tenemos unos botones con unos estilos de neon, quería unos estilos genuninos y únicos para mi quiz, este tipo de estilo me gusto. Aquí dejo las css_
 
-![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/carpetas.png)
+![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/inicio.png)
 
 _Código Neon_
 
