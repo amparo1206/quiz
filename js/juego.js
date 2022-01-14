@@ -28,14 +28,6 @@ let questions = [
         answer: 4,
     },
     {
-        question: 'En Harry Potter y las Reliquias de la Muerte ¿Quién saca la espada de Gryffindor del sombrero seleccionador?',
-        choice1: 'Neville Longbottom',
-        choice2: 'Parvati Patil',
-        choice3: 'Pansy Parkinson',
-        choice4: 'Hermione Granger',
-        answer: 1,
-    },
-    {
         question: '¿Quién lidera en la batalla final a los elfos domésticos?',
         choice1: 'Dobby',
         choice2: 'Winky ',
