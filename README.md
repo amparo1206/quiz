@@ -8,7 +8,7 @@ _En el Index tenemos el comienzo del juego, como vemos tenemos unos botones con 
 
 ![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/inicio.png)
 
-_Código Neon_
+### Código Neon
 
 ```
 @keyframes flicker {
@@ -40,5 +40,5 @@ _Código Neon_
 }
 
 ```
-
+### Pantalla de preguntas
 
