@@ -6,7 +6,7 @@ _El editor que he utilizado es Visual Studio Code_
 # COMENZAMOS
 _Primero he organizado el cógido en 3 carpetas, más una carpeta adicional para los recursos de imagenes que vaya a utilizar o probar en el proyecto_
 
-![Image Text]()
+![Image Text](https://github.com/amparo1206/quiz/blob/main/imagenes/carpetas.png)
 
 _En el Index tenemos el comienzo del juego, como vemos tenemos unos botones con unos estilos de neon, quería unos estilos genuninos y únicos para mi quiz, este tipo de estilo me gusto. Aquí dejo las css_
 
